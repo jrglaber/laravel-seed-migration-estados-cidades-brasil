@@ -48,5 +48,7 @@
                 "Guiliredu\\BrazilianCityMigrationSeed\\BrazilianCityMigrationSeedServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
