@@ -33,7 +33,7 @@ A tabela `regions` contém:
 Você pode instalar este pacote via composer:
 
 ```bash
-composer require guiliredu/laravel-seed-migration-estados-cidades-brasil
+composer require jrglaber/laravel-seed-migration-estados-cidades-brasil
 ```
 
 Após a instalação, você deve rodar as migrations e os seeders:
