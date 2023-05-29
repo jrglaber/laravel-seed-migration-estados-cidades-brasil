@@ -1,18 +1,17 @@
 {
-    "name": "guiliredu/laravel-seed-migration-estados-cidades-brasil",
+    "name": "jrglaber/laravel-seed-migration-estados-cidades-brasil",
     "description": "Pacote com informações de todas cidades e estados brasileiros.",
     "keywords": [
-        "guiliredu",
+        "jrglaber",
         "laravel-seed-migration-estados-cidades-brasil",
         "seed cidades brasileiras"
     ],
-    "homepage": "https://github.com/guiliredu/laravel-seed-migration-estados-cidades-brasil",
+    "homepage": "https://github.com/jrglaber/laravel-seed-migration-estados-cidades-brasil",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
-            "name": "Guilherme Redu",
-            "email": "guiliredu@gmail.com",
+            "name": "Edivaldo",
             "role": "Developer"
         }
     ],
