@@ -14,7 +14,7 @@ class CityTableSeeder extends Seeder
     public function run()
     {
         $cities = $this->cities();
-        $chunks = array_chunk($cities, 200);
+        $chunks = array_chunk($cities, 100);
         foreach ($chunks as $chunk) {
             \DB::table('cities')->insert($chunk);
         }
