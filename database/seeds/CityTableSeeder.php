@@ -13,7 +13,16 @@ class CityTableSeeder extends Seeder
      */
     public function run()
     {
-        \DB::table('cities')->insert(array (
+        $cities = $this->cities();
+        $chunks = array_chunk($cities, 200);
+        foreach ($chunks as $chunk) {
+            \DB::table('cities')->insert($chunk);
+        }
+    }
+
+    private function cities()
+    {
+        return array (
             0 =>
             array (
                 'id' => '1',
@@ -78016,6 +78025,6 @@ class CityTableSeeder extends Seeder
                 'long' => '-53.01280850',
                 'income_per_capita' => '500.00',
             ),
-        ));
+        );
     }
 }
